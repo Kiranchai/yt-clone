@@ -1,0 +1,10 @@
+.voiceIconBox{
+    height: 100%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}

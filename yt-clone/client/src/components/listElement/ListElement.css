@@ -1,0 +1,24 @@
+/* li{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.liIcon{
+    margin-left: 20px;
+}
+
+*/
+
+li:hover{
+    background-color: #464646;
+    cursor: pointer;
+}
+
+.liContent{
+    padding: 0 30px;
+}
+
+

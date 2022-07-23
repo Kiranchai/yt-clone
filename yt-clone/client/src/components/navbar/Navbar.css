@@ -1,0 +1,44 @@
+#main{
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 56px;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 999;
+}
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    margin-right: 20px;
+}
+
+.navbar-left > button{
+    background-color: #282828;
+    color: white;
+    border: 0;
+}
+
+.navbar-middle{
+    width: 572px;
+}
+
+.navbar-right{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right > *{
+    margin-inline: 15px;
+}
